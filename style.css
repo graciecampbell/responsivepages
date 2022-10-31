@@ -1,0 +1,326 @@
+.crimepage .container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.homepage .container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.malwarepage .container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+html{
+  background-color:#001E4A;
+}
+.homepage .header {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+  background-color:#4D1E94;
+  width: 100%;
+  height: 50px;
+  border-radius: 2%;
+  display: flex;
+}
+.homepage .header .title {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 22px;
+    width: 300px;
+    color: #5d5d5d;
+}
+.homepage .header .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+.homepage .header .links li{
+    display: inline-block;
+    margin-left: 30px;
+    color: black;
+    cursor: pointer;
+  
+}
+.homepage .cyberab{
+  width: 415px;
+  height: 400px;
+  top: 240px;
+  float: left;
+  background-color: #792EE8;
+  border-radius: 5%;
+  position: absolute;
+  left: 50px;
+  border: solid 2px black;
+  z-index: 2;
+  
+}
+
+.homepage .cyberab h1{
+  font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
+  color: yellow;
+}
+.homepage .cyberab p{
+  font-size: 24px;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+.homepage .homeimg{
+  border: 2px solid black;
+  position: absolute;
+  left: 400px;
+  top: 220px;
+  width: 500px;
+  height: 450px;
+  display: flex;
+  object-fit: cover;
+  z-index: 1;
+}
+.agency{
+    width: 415px;
+  height: 400px;
+  float: left;
+  background-color: #792EE8;
+  border-radius: 5%;
+  position: absolute;
+  right: 50px;
+  border: solid 2px black;
+  z-index: 2;
+  top: 240px;
+}
+.homepage .agency h1{
+  font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
+  color: yellow;
+}
+
+.homepage .agency li{
+  font-size: 24px;
+  margin: 2px;
+  word-spacing: 2px;
+  padding: 2px;
+  text-align: center;
+}
+
+.malwarepage .header {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+  background-color:#4D1E94;
+  width: 100%;
+  height: 50px;
+  border-radius: 2%;
+  display: flex;
+}
+.malwarepage .header .title {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 22px;
+    width: 300px;
+    color: #5d5d5d;
+}
+.malwarepage .header .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+.malwarepage .header .links li{
+    display: inline-block;
+    margin-left: 30px;
+    color: black;
+    cursor: pointer;
+  
+}
+.malwarepage .malwareab{
+  width: 415px;
+  height: 400px;
+  top: 240px;
+  float: left;
+  background-color: #792EE8;
+  border-radius: 5%;
+  position: absolute;
+  left: 50px;
+  border: solid 2px black;
+  z-index: 2;
+}
+.malwarepage .malwareab h1{
+   font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
+  color: yellow;
+}
+.malwarepage .malwareab p{
+  font-size: 24px;
+  word-spacing: 2px;
+  text-align: center;
+}
+.malwarepage .prot{
+   width: 415px;
+  height: 400px;
+  float: left;
+  background-color: #792EE8;
+  border-radius: 5%;
+  position: absolute;
+  right: 50px;
+  border: solid 2px black;
+  z-index: 2;
+  top: 240px;
+}
+.malwarepage .prot h1{
+  font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
+  color: yellow;
+}
+.malwarepage .prot li{
+  font-size: 20px;
+  margin: 2px;
+  word-spacing: 2px;
+  padding: 2px;
+  text-align: center;
+}
+.malwarepage .facts{
+   width: 415px;
+  height: 400px;
+  float: left;
+  background-color: #792EE8;
+  border-radius: 5%;
+  position: absolute;
+  right: 510px;
+  border: solid 2px black;
+  z-index: 2;
+  top: 240px;
+}
+.malwarepage .facts h1{
+  font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
+  color: yellow;
+}
+.malwarepage .facts li{
+  font-size: 25px;
+  margin: 2px;
+  word-spacing: 2px;
+  padding: 2px;
+  text-align: center;
+}
+
+.crimepage .cardone{
+  background-color: #782BEB;
+  width: 400px;
+  height: 550px;
+  margin: 15px;
+  border-radius: 3%;
+  position: absolute;
+  left: -110px;
+  top: 150px;
+}
+.crimepage .cardtwo{
+  background-color: #782BEB;
+  width: 400px;
+  height: 550px;
+  margin: 15px;
+  border-radius: 3%;
+  right: -110px;
+  position: absolute;
+  top: 150px;
+}
+.crimepage .cardthree{
+  background-color: #782BEB;
+  width: 390px;
+  height: 550px;
+  margin: 15px;
+  border-radius: 3%;
+  position: absolute;
+  top: 150px;
+  right: 370px;
+}
+
+.crimepage .header {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+  background-color:#4D1E94;
+  width: 100%;
+  height: 50px;
+  border-radius: 2%;
+  display: flex;
+}
+.crimepage .header .title {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 22px;
+    width: 300px;
+    color: #5d5d5d;
+}
+.crimepage .header .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+.crimepage .header .links li{
+    display: inline-block;
+    margin-left: 30px;
+    color: black;
+    cursor: pointer;
+  
+}
+.image{
+  background-color:black;
+  height: 150px;
+  margin: 10px;
+  background-size: cover;
+}
+.crimepage .imageone{
+  background-image: url('https://images.idgesg.net/images/article/2020/07/phishing_attack_security_threat_fish_hook_binary_code_by_andreus_gettyimages-1253294358_cso_2400x1600-100851297-large.jpg?auto=webp&quality=85,70')
+}
+
+.crimepage .imagetwo{
+  background-image: url('https://blog.ipleaders.in/wp-content/uploads/2021/07/IPR.jpg')
+}
+
+.crimepage .imagethree{
+  background-image: url('https://www.pandasecurity.com/en/mediacenter/src/uploads/2019/04/pharming-hero-1-1920x1080.jpg')
+}
+
+@media screen and (max-width: 600px){
+  .crimepage .container {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 600px){
+    .homepage .container {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: 600px){
+        .malwarepage .container {
+          flex-direction: column;
+        }
